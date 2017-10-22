@@ -7,7 +7,6 @@ def AlphabetSoup(str):
 
     #remove numbers and characters using translate
     str=str.translate(None,'!@#$%^&*_+:",.0123456789')
-    # split list into characters
     str=sorted(str)
     #create a new empty list 
     return "".join(str)
